@@ -50,7 +50,7 @@ export default {
 </script>
 ```
 
-## Demo App setup
+## Setup Demo App
 ```
 npm install
 ```

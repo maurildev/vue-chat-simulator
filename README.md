@@ -19,7 +19,7 @@ npm install vue-chat-simulator
 
 ```vue
 <template>
-  <v-chat-simulator :messages="messages" @all-chat-bubbles-completed="logNotification"/>
+  <v-chat-simulator :messages="messages" @completed="logNotification"/>
 </template>
 
 <script>

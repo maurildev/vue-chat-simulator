@@ -1,6 +1,6 @@
 <template>
   <v-phone>
-    <v-chat-simulator :messages="messages" @all-chat-bubbles-completed="logNotification"/>
+    <v-chat-simulator :messages="messages" @completed="logNotification"/>
   </v-phone>
 </template>
 
@@ -15,7 +15,7 @@ export default {
   },
   data() {
     return {
-      messages: [
+       messages: [
         'Heey 👋🏽 ',
         'Nice to meet you !',
         'My name is vue-chat-simulator 😄',
